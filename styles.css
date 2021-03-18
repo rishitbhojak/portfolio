@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 hr {
@@ -66,6 +67,7 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+   
 }
 
 .navigation .nav-brand {
@@ -91,6 +93,7 @@ hr {
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-grey);
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -107,4 +110,18 @@ hr {
 }
 .ow{
     background-color: var(--off-white);
+}
+/** footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 2rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding: 0px;
 }

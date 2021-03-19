@@ -39,7 +39,7 @@ hr {
 }
 .link:hover{
     background-color: var(--dark-grey);
-    border-radius: 2rem;
+    border-radius: 0.5rem;
 }
 .link-primary {
     background-color: var(--primary-color);
@@ -53,6 +53,11 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+/* .link-primary:hover{
+    background-color: var(--dark-grey);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+} */
 .link-secondary:hover{
     background-color: var(--primary-color);
     color: white;
